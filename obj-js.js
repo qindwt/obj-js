@@ -1,3 +1,7 @@
+/* js 实现对象继承工具类
+ * qinning 383175101@qq.com
+ * Apache License Version 2.0
+ */
 (function(W) {
 	"use strict";
 	var Class = function() {
@@ -36,7 +40,7 @@
 				this.init.apply(this, arguments);
 			}
 		}
-		//使用C作为构造函数，初始化执行init
+		// 使用C作为构造函数，初始化执行init
 		pt.constructor = C;
 		C.prototype = pt;
 		C.extend = _extend;
