@@ -1,4 +1,4 @@
-/* js 实现对象继承工具类
+/* js 实现对象继承工具类包含实现方法_super，初始化函数为init可以传递构造方法参数
  * qinning 383175101@qq.com
  * Apache License Version 2.0
  */
