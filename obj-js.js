@@ -48,7 +48,7 @@
 
 		var C = function() {
 			// 参数false不执行初始化方法
-			if (arguments.length === 1 && arguments[0] === false) {
+			if (arguments.length > 0 && arguments[0] === false) {
 				return;
 			}
 			if (this.init && typeof this.init == "function") {
